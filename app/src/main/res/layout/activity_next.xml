@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/smslogo"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        >
+    </ImageView>
+
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:gravity="center"
+        android:layout_width="305dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border2"
+        android:hint="Phone Number"
+        android:inputType="phone"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="338dp"
+        android:layout_height="142dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border3"
+        android:gravity="top"
+        android:hint="   Type message here"
+        android:inputType="textMultiLine"
+        android:lines="5" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="295dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#566EF3"
+        android:text="Send"
+        app:cornerRadius="50dp" />
+
+</LinearLayout>
